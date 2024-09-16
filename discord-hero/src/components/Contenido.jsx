@@ -1,7 +1,6 @@
 import Header from "./Header.jsx";
 import Texto from "./Texto.jsx"
 import Buttons from "./Buttons.jsx"
-import Imagen from "./Imagen.jsx";
 
 function Contenido() {
   return (
@@ -14,7 +13,6 @@ function Contenido() {
 
         <Buttons />
 
-        <Imagen />
       </div>
     
   );

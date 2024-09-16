@@ -1,6 +1,7 @@
 import './App.css'
 import Navbar from "./components/Navbar.jsx"
 import Contenido from './components/Contenido.jsx'
+import Imagen from './components/Imagen.jsx'
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <Navbar />
 
       <Contenido />
+
+      <Imagen />
 
     </div>
   )

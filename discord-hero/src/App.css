@@ -14,6 +14,7 @@ html, body {
   height: 100vh;
   background-color: #646cff;
   color: white;
+  position: relative;
 }
 
 #navbar {
@@ -46,7 +47,6 @@ html, body {
   flex-direction: column;
   padding: 0 30px;
   position: relative;
-  height: 823px;
 }
 
 .titulo {
@@ -85,10 +85,11 @@ html, body {
 
 #imagen-fondo {
   position: absolute;
-  height: 450px;
+  height: auto;
+  max-height: 100%;
   width: auto;
   left: 40%;
-  bottom:0;
+  bottom: 0;
 }
 
 @keyframes logo-spin {
