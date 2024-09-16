@@ -1,13 +1,29 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+} */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  height: 100vh;
+  background-color: #646cff;
+  color: white;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0 20px; */
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  height: 2em;
+  padding: 2em;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -16,6 +32,52 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.menu {
+  height: 3em;
+  padding: 1.2em;
+
+}
+
+.pageContenido {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+}
+
+.titulo {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding-top: 30px; 
+  font-size: 80px ;
+}
+
+.text {
+  max-width: 50vw;
+  font-size: 25px ;
+  font-family: 'Roboto', sans-serif;
+  /* padding: 0 30px; */
+}
+
+.buttons {
+  padding: 20px 0;
+}
+
+#mac-button {
+  border-radius: 100px;
+  color: black;
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+#discord-button {
+  border-radius: 100px;
+  color: white;
+  background-color: black;
+  padding: 15px;
+
 }
 
 @keyframes logo-spin {
